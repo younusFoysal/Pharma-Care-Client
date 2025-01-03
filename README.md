@@ -2,7 +2,7 @@
 
 A modern, full-stack pharmacy management system built with React and Node.js that helps pharmacies streamline their operations, manage inventory, and provide better patient care.
 
-![PharmaCare Dashboard](https://github.com/younusFoysal/Pharma-Care-Client/blob/master/public/dash.png)
+![PharmaCare Dashboard](https://github.com/younusFoysal/Pharma-Care-Client/blob/master/public/home.png)
 
 ## Features
 
