@@ -2,11 +2,13 @@ import React from 'react';
 import { Bell, User, Menu } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useSidebar } from '../context/SidebarContext';
+import {useNavigate} from "react-router-dom";
 
 
 function Header() {
   const { user, logout } = useAuth();
   const { toggle } = useSidebar();
+  const navigate = useNavigate();
 
   return (
       <header className="bg-white shadow">
@@ -27,6 +29,7 @@ function Header() {
               <div className="ml-3 relative">
                 <div className="flex items-center">
                   <button
+                      onClick={() => navigate("/dashboard/settings")}
                       className="flex items-center max-w-xs rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     <User className="h-8 w-8 rounded-full"/>
                     <span className="ml-2 text-gray-700 hidden sm:block">{user?.name}</span>

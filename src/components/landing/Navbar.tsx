@@ -5,7 +5,7 @@ import {useAuth} from "../../context/AuthContext.tsx";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-    const { user, isLoading } = useAuth();
+    const { user } = useAuth();
 
     return (
         <nav className="bg-white shadow-sm fixed w-full z-10">
@@ -33,7 +33,7 @@ function Navbar() {
                             user ? <>
                                 <Link
                                     to="/dashboard"
-                                    className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500"
+                                    className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500 hover:shadow-xl duration-500"
                                 >
                                     Dashboard
                                 </Link>
@@ -41,7 +41,7 @@ function Navbar() {
                                 <Link to="/login" className="text-indigo-600 hover:text-indigo-500">Login</Link>
                                 <Link
                                     to="/register"
-                                    className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500"
+                                    className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500 hover:shadow-xl duration-500"
                                 >
                                      Get Started
                                 </Link>
@@ -73,7 +73,7 @@ function Navbar() {
                                 user ? <>
                                     <Link
                                         to="/dashboard"
-                                        className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500"
+                                        className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500 hover:shadow-xl duration-500"
                                     >
                                         Dashboard
                                     </Link>
@@ -81,7 +81,7 @@ function Navbar() {
                                     <Link to="/login" className="text-indigo-600 hover:text-indigo-500">Login</Link>
                                     <Link
                                         to="/register"
-                                        className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500"
+                                        className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500 hover:shadow-xl duration-500"
                                     >
                                         Get Started
                                     </Link>

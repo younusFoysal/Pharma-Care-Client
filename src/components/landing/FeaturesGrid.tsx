@@ -33,7 +33,7 @@ const FeaturesGrid = () => {
 
 
 
-                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 duration-500" >
+                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 hover:shadow-indigo-300 duration-500" data-aos="fade-right">
                         <div className="absolute -top-8 right-4 flex h-16 w-16 items-center justify-center rounded-full border border-indigo-400 bg-indigo-100 shadow-md group-hover:shadow-2xl  lg:right-8">
                             <Package className="h-10 w-10 text-indigo-600" />
                         </div>
@@ -45,7 +45,7 @@ const FeaturesGrid = () => {
 
 
 
-                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 duration-500" >
+                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 hover:shadow-indigo-300 duration-500" data-aos="fade-right" >
                         <div
                             className="absolute -top-8 right-4 flex h-16 w-16 items-center justify-center rounded-full border border-indigo-400 bg-indigo-100 shadow-md group-hover:shadow-2xl  lg:right-8">
                             <ShoppingCart className="h-10 w-10 text-indigo-600"/>
@@ -57,7 +57,7 @@ const FeaturesGrid = () => {
                         </p>
                     </div>
 
-                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 duration-500" >
+                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 hover:shadow-indigo-300 duration-500" data-aos="fade-right">
                         <div
                             className="absolute -top-8 right-4 flex h-16 w-16 items-center justify-center rounded-full border border-indigo-400 bg-indigo-100 shadow-md group-hover:shadow-2xl  lg:right-8">
                             <FileText className="h-10 w-10 text-indigo-600"/>
@@ -71,7 +71,7 @@ const FeaturesGrid = () => {
                         </p>
                     </div>
 
-                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 duration-500" >
+                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 hover:shadow-indigo-300 duration-500" data-aos="fade-left">
                         <div
                             className="absolute -top-8 right-4 flex h-16 w-16 items-center justify-center rounded-full border border-indigo-400 bg-indigo-100 shadow-md group-hover:shadow-2xl  lg:right-8">
                             <User className="h-10 w-10 text-indigo-600"/>
@@ -85,7 +85,7 @@ const FeaturesGrid = () => {
                         </p>
                     </div>
 
-                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 duration-500" >
+                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 hover:shadow-indigo-300 duration-500" data-aos="fade-left" >
                         <div
                             className="absolute -top-8 right-4 flex h-16 w-16 items-center justify-center rounded-full border border-indigo-400 bg-indigo-100 shadow-md group-hover:shadow-2xl  lg:right-8">
                             <BarChart2 className="h-10 w-10 text-indigo-600"/>
@@ -97,7 +97,7 @@ const FeaturesGrid = () => {
                         </p>
                     </div>
 
-                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 duration-500" >
+                    <div className="relative mb-8 flex flex-col rounded-2xl border border-indigo-300 bg-white p-8 shadow-lg group  lg:mb-4 hover:scale-105 hover:shadow-indigo-300 duration-500" data-aos="fade-left" >
                         <div
                             className="absolute -top-8 right-4 flex h-16 w-16 items-center justify-center rounded-full border border-indigo-400 bg-indigo-100 shadow-md group-hover:shadow-2xl  lg:right-8">
                             <Shield className="h-10 w-10 text-indigo-600"/>

@@ -42,7 +42,7 @@ function UserManagement() {
 
     try {
       if (selectedUser) {
-        await api.put(`/auth/users/${selectedUser._id}`, formData);
+        await api.put(`/auth/users/${selectedUser._id}/role`, formData);
       } else {
         await api.post('/auth/register', formData);
       }

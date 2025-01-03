@@ -1,4 +1,4 @@
-import {Activity, Compass, Layout, Package} from "lucide-react";
+import {Activity, Compass, Layout} from "lucide-react";
 import 'aos/dist/aos.css';
 import {useEffect} from "react";
 import AOS from "aos";

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Settings as SettingsIcon, User, Users, Sliders } from 'lucide-react';
 import ProfileSettings from '../components/settings/ProfileSettings';
 import UserManagement from '../components/settings/UserManagement';

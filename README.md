@@ -142,7 +142,7 @@ The application will be available at `http://localhost:5173`
 
 ### Default Login Credentials
 ```
-Email: admin@example.com
+Email: admin@gmail.com
 Password: admin123
 ```
 

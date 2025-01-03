@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Plus, Search, FileText } from 'lucide-react';
+import  { useState, useEffect } from 'react';
+import { Plus, Search } from 'lucide-react';
 import { api } from '../utils/api';
-import { format } from 'date-fns';
 import SaleModal from '../components/sales/SaleModal';
 import { Sale } from '../types/sale';
 import UpdateSaleModal from '../components/sales/UpdateSaleModal';

@@ -1,5 +1,5 @@
 
-import {Link, useNavigate} from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import GltfViewer from "./GltfViewer.tsx";
 import {useEffect} from "react";
@@ -57,13 +57,13 @@ function Hero() {
                                 >
                                     Get Started <ArrowRight className="ml-2 h-5 w-5"/>
                                     <span
-                                        className="absolute w-44 h-32 -top-9 -left-0 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+                                        className="absolute w-48 h-32 -top-9 -left-0 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
                                     ></span>
                                     <span
-                                        className="absolute w-44 h-32 -top-9 -left-0 bg-indigo-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+                                        className="absolute w-48 h-32 -top-9 -left-0 bg-indigo-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
                                     ></span>
                                     <span
-                                        className="absolute w-44 h-32 -top-9 -left-0 bg-indigo-600 rotate-12 transform scale-x-0 group-hover:scale-x-90 transition-transform group-hover:duration-1000 duration-500 origin-left"
+                                        className="absolute w-48 h-32 -top-9 -left-0 bg-indigo-600 rotate-12 transform scale-x-0 group-hover:scale-x-90 transition-transform group-hover:duration-1000 duration-500 origin-left"
                                     ></span>
                                     <span
                                         className="group-hover:opacity-100 inline-flex items-center group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-8"

@@ -1,4 +1,4 @@
-import {Mail, Package, PlayCircle} from "lucide-react";
+import {Mail,  PlayCircle} from "lucide-react";
 import {useEffect} from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
