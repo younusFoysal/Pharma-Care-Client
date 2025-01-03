@@ -4,6 +4,8 @@ A modern, full-stack pharmacy management system built with React and Node.js tha
 
 ![PharmaCare Dashboard](https://github.com/younusFoysal/Pharma-Care-Client/blob/master/public/home.gif)
 
+### Live Link: https://pharmacyclient.vercel.app/
+
 ## Features
 
 ### 1. Inventory Management
@@ -81,13 +83,6 @@ A modern, full-stack pharmacy management system built with React and Node.js tha
 - Recharts
 - Date-fns
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- JWT Authentication
-- Bcrypt
-- CORS
 
 ### Development Tools
 - Vite
@@ -99,7 +94,6 @@ A modern, full-stack pharmacy management system built with React and Node.js tha
 
 ### Prerequisites
 - Node.js 18 or higher
-- MongoDB
 - Git
 
 ### Installation
@@ -107,7 +101,7 @@ A modern, full-stack pharmacy management system built with React and Node.js tha
 1. Clone the repository
 ```bash
 git clone https://github.com/younusFoysal/Pharma-Care-Client.git
-cd pharmacare
+cd Pharma-Care-Client
 ```
 
 2. Install dependencies
@@ -139,6 +133,7 @@ npm run dev
 ```
 
 The application will be available at `http://localhost:5173`
+The server will be available at `http://localhost:3000`
 
 ### Default Login Credentials
 ```
@@ -147,43 +142,6 @@ Password: admin123
 ```
 
 
-
-## API Documentation
-
-### Authentication Endpoints
-- POST `/api/auth/login` - User login
-- POST `/api/auth/register` - User registration
-- GET `/api/auth/me` - Get current user
-
-### Product Endpoints
-- GET `/api/products` - Get all products
-- POST `/api/products` - Create product
-- PUT `/api/products/:id` - Update product
-- DELETE `/api/products/:id` - Delete product
-
-### Sales Endpoints
-- GET `/api/sales` - Get all sales
-- POST `/api/sales` - Create sale
-- PUT `/api/sales/:id` - Update sale
-- GET `/api/sales/customer/:id` - Get customer sales
-
-### Purchase Endpoints
-- GET `/api/purchases` - Get all purchases
-- POST `/api/purchases` - Create purchase
-- PUT `/api/purchases/:id` - Update purchase
-- DELETE `/api/purchases/:id` - Delete purchase
-
-### Customer Endpoints
-- GET `/api/customers` - Get all customers
-- POST `/api/customers` - Create customer
-- PUT `/api/customers/:id` - Update customer
-- DELETE `/api/customers/:id` - Delete customer
-
-### Supplier Endpoints
-- GET `/api/suppliers` - Get all suppliers
-- POST `/api/suppliers` - Create supplier
-- PUT `/api/suppliers/:id` - Update supplier
-- DELETE `/api/suppliers/:id` - Delete supplier
 
 ## Contributing
 
