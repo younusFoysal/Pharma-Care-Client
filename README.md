@@ -2,7 +2,7 @@
 
 A modern, full-stack pharmacy management system built with React and Node.js that helps pharmacies streamline their operations, manage inventory, and provide better patient care.
 
-![PharmaCare Dashboard](https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80)
+![PharmaCare Dashboard](https://github.com/younusFoysal/Pharma-Care-Client/blob/master/public/dash.png)
 
 ## Features
 
@@ -106,7 +106,7 @@ A modern, full-stack pharmacy management system built with React and Node.js tha
 
 1. Clone the repository
 ```bash
-git clone https://github.com/younusFoysal/pharmacare.git
+git clone https://github.com/younusFoysal/Pharma-Care-Client.git
 cd pharmacare
 ```
 
@@ -146,23 +146,7 @@ Email: admin@example.com
 Password: admin123
 ```
 
-## Project Structure
 
-```
-pharmacare/
-├── src/                    # Frontend source files
-│   ├── components/         # React components
-│   ├── context/           # React context providers
-│   ├── hooks/             # Custom React hooks
-│   ├── pages/             # Page components
-│   ├── types/             # TypeScript type definitions
-│   └── utils/             # Utility functions
-├── server/                # Backend source files
-│   ├── models/           # MongoDB models
-│   ├── routes/           # API routes
-│   └── middleware/       # Express middleware
-└── public/               # Static files
-```
 
 ## API Documentation
 
