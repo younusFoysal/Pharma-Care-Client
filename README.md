@@ -8,68 +8,15 @@ A modern, full-stack pharmacy management system built with React and Node.js tha
 
 ## Features
 
-### 1. Inventory Management
-- Real-time stock tracking
-- Low stock alerts
-- Expiry date monitoring
-- Batch number tracking
-- Stock adjustments
-- Automatic reorder level management
 
-### 2. Sales Management
-- Quick sale processing
-- Invoice generation
-- Multiple payment methods
-- Partial payments handling
-- Due payment tracking
-- Invoice printing
-- Sales history
-
-### 3. Purchase Management
-- Purchase order creation
-- Supplier management
-- Order tracking
-- Stock receiving
-- Purchase history
-- Cost tracking
-
-### 4. Customer Management
-- Customer profiles
-- Medical history
-- Prescription tracking
-- Purchase history
-- Due payments
-- Insurance information
-
-### 5. Supplier Management
-- Supplier profiles
-- Order history
-- Contact information
-- Performance tracking
-- Payment history
-
-### 6. Reports & Analytics
-- Sales analytics
-- Inventory reports
-- Revenue tracking
-- Product performance
-- Customer insights
-- Category distribution
-- Stock movement analysis
-
-### 7. User Management
-- Role-based access control
-- Staff management
-- Activity logging
-- Profile management
-- Security controls
-
-### 8. System Settings
-- Business information
-- Tax settings
-- Notification preferences
-- System preferences
-- Backup & restore
+1. **Inventory Management:** Track stock in real-time, monitor expiries, get low-stock alerts, and automate reorders.
+2. **Sales Management:** Quick sales, multi-payment methods, invoice generation, and due payment tracking.
+3. **Purchase Management:** Manage suppliers, create purchase orders, track orders, and monitor purchase history.
+4. **Customer Management:** Handle profiles, prescriptions, medical history, and due payments with ease.
+5. **Supplier Management:** Maintain supplier records, contact info, order history, and performance tracking.
+6. **Reports & Analytics:** Gain insights with sales analytics, inventory reports, and revenue tracking.
+7. **User Management:** Role-based access, staff management, activity logs, and security controls.
+8. **System Settings:** Configure business info, tax rates, notifications, and data backup options.
 
 ## Technology Stack
 
@@ -84,17 +31,7 @@ A modern, full-stack pharmacy management system built with React and Node.js tha
 - Date-fns
 
 
-### Development Tools
-- Vite
-- ESLint
-- TypeScript
-- Git
-
 ## Getting Started
-
-### Prerequisites
-- Node.js 18 or higher
-- Git
 
 ### Installation
 
