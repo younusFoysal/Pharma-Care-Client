@@ -11,7 +11,8 @@ interface GltfViewerProps {
 const Model: React.FC<{
     fileUrl: string;
     scale?: [number, number, number];
-    position?: [number, number, number] }> = ({fileUrl, scale = [1, 1, 1], position = [0, 0, 0],}) => {
+    position?: [number, number, number];
+}> = ({ fileUrl, scale = [1, 1, 1], position = [0, 0, 0] }) => {
     const { scene } = useGLTF(fileUrl);
     const modelRef = useRef<THREE.Object3D>(null);
 
@@ -30,10 +31,13 @@ const GltfViewer: React.FC<GltfViewerProps> = ({ fileUrl, scale, position }) => 
         <div style={{ width: '100%', height: '500px' }}>
             <Canvas camera={{ position: [0, 0, 5] }}>
                 {/* Lighting */}
-                <ambientLight intensity={0.5} />
-                <directionalLight position={[10, 10, 10]} intensity={1} />
+                <ambientLight intensity={1} color="white" /> {/* Brighter ambient light */}
+                <directionalLight position={[10, 10, 10]} intensity={2} color="white" /> {/* Stronger directional light */}
+                <pointLight position={[-10, -10, 10]} intensity={0.8} color="white" /> {/* Additional point light */}
+
                 {/* 3D Model */}
                 <Model fileUrl={fileUrl} scale={scale} position={position} />
+
                 {/* Controls */}
                 <OrbitControls />
             </Canvas>
