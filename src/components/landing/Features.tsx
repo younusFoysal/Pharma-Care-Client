@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Package, ShoppingCart, Users, BarChart2 } from 'lucide-react';
 
 const features = [

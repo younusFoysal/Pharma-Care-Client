@@ -17,7 +17,7 @@ const Reviews = () => {
 
                 <div className="gap-8 space-y-8 md:columns-2 lg:columns-3">
 
-                    <div className="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg ">
+                    <div className="animate-floatSlow p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg ">
                         <div className="flex gap-4 items-start">
 
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/12.jpg"
@@ -41,7 +41,7 @@ const Reviews = () => {
                     </div>
 
                     <div
-                        className="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
+                        className="animate-float p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
                         <div className="flex gap-4 items-start">
 
                             <img className="w-12 h-12 rounded-full"
@@ -63,7 +63,7 @@ const Reviews = () => {
                     </div>
 
                     <div
-                        className="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
+                        className="animate-float p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
                         <div className="flex gap-4 items-start">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/18.jpg"
                                  alt="user avatar" width="200" height="200" loading="lazy"/>
@@ -83,7 +83,7 @@ const Reviews = () => {
                     </div>
 
                     <div
-                        className="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
+                        className="animate-floatSlow p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
                         <div className="flex gap-4 items-start">
                             <img className="w-12 h-12 rounded-full"
                                  src="https://randomuser.me/api/portraits/women/2.jpg" alt="user avatar" width="200"
@@ -104,7 +104,7 @@ const Reviews = () => {
                     </div>
 
                     <div
-                        className="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
+                        className="animate-floatSlow p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
                         <div className="flex gap-4 items-start">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/62.jpg"
                                  alt="user avatar" width="200" height="200" loading="lazy"/>
@@ -124,7 +124,7 @@ const Reviews = () => {
                     </div>
 
                     <div
-                        className="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
+                        className="animate-float p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 hover:shadow-indigo-200 hover:shadow-lg">
                         <div className="flex gap-4 items-start">
                             <img className="w-12 h-12 rounded-full"
                                  src="https://randomuser.me/api/portraits/women/19.jpg" alt="user avatar" width="400"

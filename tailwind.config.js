@@ -5,6 +5,7 @@ export default {
     extend: {
       animation: {
         float: "float 3s ease-in-out infinite",
+        floatSlow: "float 5s ease-in-out infinite"
       },
       keyframes: {
         float: {
